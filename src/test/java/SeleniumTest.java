@@ -41,7 +41,6 @@ public class SeleniumTest {
         driver.manage().window().fullscreen();
     }
 
-
     @AfterEach
     public void tearDown() {
         if (driver != null) {
